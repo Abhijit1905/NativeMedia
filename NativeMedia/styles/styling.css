@@ -1,0 +1,357 @@
+
+/*for Section and Navbar Part*/
+
+.homepage
+{
+    margin: 0 117.6px;
+    font-family: "Mulish" , sans-serif;
+    padding: 0;
+    height: 100vh;
+}
+.navbar
+{
+    padding: 20px 0;
+}
+.companylogo p
+{
+    font-weight: 700;
+    font-size: 26px;
+    margin: 0;
+}
+.navbarlinks
+{
+    text-decoration: none;
+    color: black;
+    margin: 0;
+    font-size: 16px;
+    padding-top: 3.5px;
+    font-weight: 450;
+}
+.logo
+{
+    width: 30.72px;
+    padding-top: 3.5px;
+}
+.ghostnavbarbut
+{
+    background-color: black;
+    border-radius: 45px;
+    color: white;
+    padding: 8.5px 19px;
+}
+
+/*for Banner Part*/
+
+.herobanner
+{
+    height: 88vh;
+    position: relative;
+}
+.bannertext{
+        width: 65vw;
+        height: max-content;
+}
+.bannertext p 
+{
+    font-size: 4.5vw;
+    font-weight: 650;
+    margin: 0;
+}
+.cube-container
+{
+        width: 65vw;
+        height: max-content;
+        perspective: 300px;  
+        position: relative;
+}
+.cube{
+       width: 100%;
+       height: 100%;
+       position: relative;
+       top:10px;
+       transform-style: preserve-3d;
+}
+.face 
+{
+    position: absolute;
+    width: 53vw;
+    background-color: #3066F2;
+    color: white;
+    border-radius: 14px;
+    padding-bottom: 7px;
+    backface-visibility: hidden;
+}
+.face p{
+    font-size: 3.5vw;
+}
+.blackbannerbut
+{
+    text-decoration: none;
+    color:white;
+    background-color: black;
+    padding: 10px 19px;
+    border-radius: 45px;
+}
+.blackbannerbut:hover
+{
+    background-color: #3066F2;
+    color: white;
+}
+.ghostbannerbut
+{
+    text-decoration: none;
+    color:black;
+    background-color: #F6F6F9;
+    padding: 10px 19px;
+    border-radius: 45px;
+}
+.imgtwo
+{
+    opacity: 0;
+}
+.imgone
+{
+    opacity: 1;
+}
+
+/*for Features and Section Part*/
+.features
+{
+    margin: 0 117.6px 100px 117.6px;
+    font-family: "Mulish" , sans-serif;
+    padding: 0;
+    height: max-content;
+}
+.featuresbox
+{
+    width: 100%;
+}
+.featurestext{
+    width:40vw;
+}
+.featurestext1
+{
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+.featurestext2
+{
+    margin:0;
+    font-size: 3.3vw;
+    font-weight: 670; 
+}
+.span1{
+    background-color: #3066F2;
+    padding: 0 5px;
+    border-radius: 7px;
+    color: white;
+    margin-left: 5px;
+}
+.span2{
+    background-color: #3066F2;
+    padding: 0 5px;
+    border-radius: 7px;
+    color: white;
+    margin-right: 5px;
+    padding-bottom:5px;
+}
+.featuresbut
+{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px 19px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 45px;
+    width: max-content;
+}
+.featurescard
+{
+    width:50vw;
+}
+.origin
+{
+    width: 100%;
+    position: relative;
+    aspect-ratio: 1 / 0.6;
+    top:-5%;
+}
+.fcard{
+    position: absolute;
+    width:calc(0.25*(50vw));
+    aspect-ratio: 1 / 1.329;
+    border-radius: 28px;
+    top:23%;
+    left:37%;
+}
+.featurescard6 ,.featurescard3
+{
+    background-color: #f1f1f5;
+}
+.circle
+{
+    width:calc((0.07*(50vw)));
+    height: calc((0.07*(50vw)));
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    
+}
+.subcircle{
+    width:calc((0.02*(50vw)));
+    height: calc((0.02*(50vw)));
+    border-radius: 50%;
+    background-color: #f1f1f5;
+}
+
+/*Pricing And Section*/
+
+.pricing
+{
+    margin: 0 117.6px 175px 117.6px;
+    font-family: "Mulish" , sans-serif;
+    padding: 0;
+    height: max-content;
+}
+.pc1 , .pc3
+{
+   width: 375.2px;
+   border-radius: 2em;
+   background-color: #e6eeff;
+   position:relative;
+   height: 555.49px;
+}
+.pc2
+{
+    width: 404.71px;
+    border-radius: 2em;
+    background-color: white;
+    box-shadow: 0px 4px 50px 10px rgba(0,0,0,0.1);
+    height: 583.11px;
+    position: relative;
+    z-index: 1;
+}
+.pricebut
+{
+    text-decoration: none;
+    color: white;
+    padding: 10px 19px;
+    background-color: #2166DF;
+    border-radius: 45px;
+    outline: solid 4px rgba(85, 89, 221, 0.4);
+    width: max-content;
+}
+
+
+/*Services And Section*/
+
+.services
+{
+    margin: 0 117.6px 100px 117.6px;
+    font-family: "Mulish" , sans-serif;
+    padding: 0;
+    height: 100vh;
+}
+.servicesbox
+{
+    width:100%;
+    position: relative;
+}
+.whitebox
+{
+    width: 24.6vw;
+    aspect-ratio: 1/1.090;
+    height: auto;
+    background-color: white;
+    box-shadow: 0px 4px 50px 10px rgba(0,0,0,0.1);
+    border-radius: 45px;
+    position: absolute;
+    padding: 2.2vw 0 2.1vw 2.5vw;
+}
+.blackbox
+{
+    width: 24.6vw;
+    aspect-ratio: 1/0.6;
+    height: auto;
+    background-color: black;
+    position: relative;
+    border-radius: 45px;
+    
+}
+.wb1
+{
+    left:-105%;
+}
+.wb2
+{
+    left:105%;
+}
+.wb3
+{
+    top:110%;
+}
+
+/*beforefooter And Section*/
+
+.beforefooter
+{
+    margin: 0px 117.6px 100px 117.6px;
+    font-family: "Mulish" , sans-serif;
+    padding: 0;
+    height: max-content;
+}
+.ending
+{
+    width: 90%;
+    aspect-ratio: 1/0.1736;
+    background-color: white;
+    box-shadow: 0px 4px 50px 10px rgba(0,0,0,0.1);
+    border-radius: 45px;
+}
+.ending{
+    padding: 2.2vw 2.5vw;
+}
+
+
+footer{
+    margin: 0px 117.6px ;
+    font-family: "Mulish" , sans-serif;
+    padding: 0;
+    height: max-content;
+}
+.footer
+{
+    width: 90%;
+    height: max-content;
+    border-top-left-radius:45px;
+    border-top-right-radius: 45px;
+    background-color: black;
+    color: white;
+    padding: 2.5vw 4vw;
+}
+.details p{
+    margin: 0;
+}
+.newsa
+{
+ padding: 2vw 2vw;
+ background-color: #292a32;
+ border-radius: 14px;
+}
+.newsa input{
+    background-color: #292a32;
+    border: solid 1px white;
+    width:270px;
+    border-radius: 14px;
+    height: 70px;
+}
+.news{
+   text-decoration: none;
+   color: white;
+   height: 70px;
+   width: 70%;
+   background-color: #2166DF;
+   border-radius: 14px;
+}
